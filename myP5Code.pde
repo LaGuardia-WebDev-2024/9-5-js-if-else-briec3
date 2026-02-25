@@ -7,10 +7,19 @@ draw = function() {
     fill(255, 254, 222);
     rect(20, 100, 364, 200);
 
+    if (mousePressed){
     fill(0, 0, 0);
     textSize(20);
     text("What kind of band never plays music?", 39, 200);
+
 };
+
+    else{
+        fill(0, 0, 0)
+        textSize(20);
+        text("A Rubber Band!", 39, 200);
+    }
+
 
 /*
 Riddle Taken From 
